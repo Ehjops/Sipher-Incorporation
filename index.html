@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipher Employment Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Employment Hub</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Your Future Starts Here</h2>
+            <p>Explore job opportunities that match your skills and passion.</p>
+            <a href="#jobs" class="btn">Find Jobs</a>
+        </div>
+    </section>
+
+    <section id="jobs" class="jobs-section">
+        <div class="container">
+            <h2>Available Jobs</h2>
+            <div class="job-listing">
+                <div class="job-item">
+                    <h3>Web Developer</h3>
+                    <p>Location: Remote</p>
+                    <p>Experience: 2+ years</p>
+                    <a href="#apply" class="btn">Apply Now</a>
+                </div>
+                <div class="job-item">
+                    <h3>Data Analyst</h3>
+                    <p>Location: New York</p>
+                    <p>Experience: 3+ years</p>
+                    <a href="#apply" class="btn">Apply Now</a>
+                </div>
+                <div class="job-item">
+                    <h3>UI/UX Designer</h3>
+                    <p>Location: San Francisco</p>
+                    <p>Experience: 2+ years</p>
+                    <a href="#apply" class="btn">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We connect job seekers with top employers to help them achieve their career goals.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Employment Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
